@@ -51,7 +51,7 @@ If compilation fails, check:
 
 * that `zfn.cls` is in the **same directory** as your `.tex` file,
 * that the bibliography file name in the `.tex` file matches `sample-bibliography.bib`,
-* that you actually ran `biber`/`bibtex`.
+* that you actually ran `biber` (and not `bibtex`).
 
 ---
 
@@ -134,18 +134,28 @@ Zip that directory and upload it during the submission it or submit each file se
 
 ## 8. Releases
 
-Right now this repository has initial **v1.0.0 tag release** on GitHub.
+The latest stable release can be downloaded here:
+
+**GitHub Release v1.0.0:**
+[https://github.com/Philosophical-Problems-in-Science-ZFN/ZFN-template/releases/tag/1.0.0](https://github.com/Philosophical-Problems-in-Science-ZFN/ZFN-template/releases/tag/1.0.0)
 
 
 ---
 
 ## 9. Overleaf
 
-You can also use the template on **Overleaf**:
+You can work with the template directly on Overleaf, using the official ZFN project available in the Overleaf Gallery:
 
-1. Create new project → **Upload project**.
-2. Upload all files from this repo.
-3. Set `sample-article.tex` (or your renamed file) as **Main file**.
+**Official Overleaf template:**
+[https://www.overleaf.com/latex/templates/philosophical-problems-in-science-zfn-journal-template/dvbzcrzffprn](https://www.overleaf.com/latex/templates/philosophical-problems-in-science-zfn-journal-template/dvbzcrzffprn)
+
+The Overleaf version is fully compatible with this GitHub repository. All required compilation steps (including running `pdflatex` and `biber`) are handled automatically — no manual setup is needed.
+
+If still you prefer to upload the files manually:
+
+1. Create a new project → Upload project.
+2. Upload all files from this repository.
+3. Set `sample-article.tex` (or your renamed file) as the **Main document**.
 4. Compile.
 
 ---
